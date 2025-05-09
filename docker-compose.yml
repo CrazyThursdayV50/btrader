@@ -1,0 +1,7 @@
+services:
+  btrader:
+    image: achillesss/btrader
+    container_name: btrader
+    network_mode: host
+    volumes:
+      - ./config.json:/app/config/config.json
